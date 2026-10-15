@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/smart_water_meter/:path*",
+      "destination": "http://13.62.170.0:5041/smart_water_meter/:path*"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
